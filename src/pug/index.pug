@@ -1,6 +1,11 @@
 extend ./_base.pug
 
 block meta
-    title index
+    title modal
 
 block content
+  div.modal.modal-js
+    p 「閉じる」か「背景を」をクリックするとモーダルウィンドウを終了します。
+    p #[a.modal-js--close.modal-js__link 閉じる]
+  div.overlay
+  a クリックする事でモーダルが開かれます。

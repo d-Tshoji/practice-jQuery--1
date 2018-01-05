@@ -7,8 +7,11 @@ body {
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
+  //text-decoration: none;
+  //color: inherit;
+  color: #0000EE;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 img {
